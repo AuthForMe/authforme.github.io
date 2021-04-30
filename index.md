@@ -2,44 +2,47 @@
 title: Auth For Me
 ---
 
-# The Internet Doesn't Work (for Humans)
+# Preamble 
 
-The internet was built as a way for humans to share and access information with each other. And it became so much more. Many of us alive today can't imagine a world without the worldwide web. 
+We beleive it is an unalienable right that each human has sole ownership of their personal data. While this is uncontroversial, the current state of our digital world is incompatible with this simple, obvious truth. 
 
-But with all the convenience and access that it brings, the internet has introduced a new set of problems in our lives. As the internet evolves and becomes more important in our lives, these problems grow, too. Let's break down a few.
+The architecture and conventions of the internet today dictate that our data is **everywhere**. The vast majority of websites today forbid any personalized interactions unless we provide our email address, and create an "account". Still others require our phone numbers, mailing addresses, credit card numbers, and more, and more, and more.
 
-## Your Security 
+Where is our data stored? Everywhere. Who has access to it? Too many. How long does it stay out there? Probably forever.
 
-According to Dashlane, [The Average Person in the US has 130 password-protected intenet accounts](https://digitalguardian.com/blog/uncovering-password-habits-are-users-password-security-habits-improving-infographic). That study was from 2015, and we can imagine the numbers have grown. To protect our security, we're expected to create a unique, secure, and unguessable password for each account. Because that's impossible, we just don't. For the tech savvy, we use a browser plugin or a secure "password keeper". For the rest, we write it in a notepad and shove it in a drawer.
+This is wrong.
 
-Passwords can help deter casual attackers. But an attacker with a budget can crack most of our passwords in a few minutes. As computers get faster, our passwords are easier to crack. The answer is not to create longer, harder passwords. We need to rethink how internet security can work for humans.
+**Auth For Me** is a new way to think about how we internet, and how our data exists out there in the world. We start with these simple principles:
+1. Websites don't need to know your email address. They need a way **to ask** to send you an email.
+2. Websites don't need you to "log in" with an email address and a password. They only need a **trusted** way to recognize you, each time you visit.
+3. Websites don't need your phone number. They need **to ask you** if they can call or send a text message.
+4. Websites don't need your mailing address. They need to **graciously beg you, hat-in-hand** if they can send you mail.
+5. Websites can't ever sell, trade, transfer, or **lose** your data, because they can't keep it. 
+6. And so on and so forth with credit card numbers, SSN, driver's license, passport, birthday, height, weight, favorite color, and your dog's name.
 
-## Your Privacy
+In short, the internet doesn't need to have any of **your data**. It just needs a way to send you stuff. 
 
-Many of us have reluctantly accepted that in certain areas of the internet, we can not expect privacy of our data. Facebook has had so many data breaches and accidental releases of user information, it's hard to even know how much of our data is out there. These breaches seem to happen more and more often, and they effect more people.
+# The Vision
 
-There's a booming industry of tech companies that help you recover from these leaks, and protect your identity, after your information is leaked. While the people operating these websites try to make them more secure, it's a losing game. 
+Auth For Me will change the conventions of the internet, putting privacy at the forefront of all web interactions, ensuring you will always control what websites and companies have access to your information. You will have control of your data. You, and your children, and your children's children's children.
 
-We need to rethink our private information, and about what websites we chose to trust with our data.
+# Baby Steps
 
+## Step 1: Killing the "Sign Up"
 
-## Your Attention
+This ubiquitous act of  "sign up" or creating a "login" for every website we visit must go. According to Dashlane, [The Average Person in the US has 130 password-protected intenet accounts](https://digitalguardian.com/blog/uncovering-password-habits-are-users-password-security-habits-improving-infographic). That study was from 2015, and we can imagine the numbers have grown. To protect our security, we're expected to create a unique, secure, and unguessable password for each account. The new "best practice" is to create a longer "passphrase" of 15 or more characters for each login. Because that's impossible, we just don't. The tech savvy among us use a secure "password keeper". The rest of us write our passwords on a notepad and shove it in a drawer.
 
-Most of us have heard, "If you are not paying for it, you're not the customer; you're the product being sold." While sad, this is a fundamental truth about how the internet works for businesses today. Every website you visit wants to sell you something. If you're not paying for a product, some advertiser is paying to show you an ad. If you scroll through Instagram or Facebook, every 4th post is an ad. These platforms are addictive, in large part because they have teams of scientists trying to keep you active on their website for as long as possibe. 
+Login fatigue is a growing problem. As we are forced to create more and more logins and accounts, we become complacent. We create passwords like "password1" (or "password111" if a website forces us to chose a longer one). The answer here is to create fewer passwords, fewer logins, and to stop giving our email outo to every website we encounter.
 
-We need to rethink how we protect our attention. 
+Here's how Auth For Me can help: 
+1. Download the browser plugin (for Firefox) and the mobile app. 
+2. When a website asks you to create an account, use Auth For Me to fill in a unique, temporary email address and a strong password that it'll save in your secure vault.
+3. You'll never have to remember that email or password, we'll keep it for you.
+4. You'll be able to delete that temporary email whenever you like, and you'll never hear from them again. 
 
+## Step 2: 2-factor Text/SMS
 
-# AuthForMe Can Help
-AuthForMe is an Oauth service with privacy as it's first priority
+Since 2014, many websites have been moving to 2FA, or two-factor authentication. Simply put, 2FA requires two "proof factors": something you know (an email addresss and password) and something you *have* (your cell phone). This login process ensures you can only login if you have posession of your cell phone (or you are a highly motivated hacker who understands how SIM cards work). In any event, 2FA websites are going to take your cell phone number, and send you a text every time you try to login. 
 
-What does that mean? It means we help websites recognize you, without giving them your personal information.
+Of course, once you provide your real phone number, 🤷. Auth For Me can help here, too. We'll provide a new, unique phone number that site can use to send you a text, and you'll always get that text right away. But whenever you're ready, we'll delete it and that site can never contact you again. 
 
-1. AuthForMe can log you in to any website you visit. You don't need to give the website your email address.
-2. Websites can still email you through AuthForMe, but we block marketing and promotional emails automatically
-3. We'll do the same for your phone number. No need to share that directly with third-party websites.
-4. For every website you visit, you can change email preferences right in AuthForMe.
-5. Whenever you want, AuthForMe will allow you to permanently delete your account on any website we know about.
-6. When you log in through AuthForMe, the website will be always ad-free, and they will not track your data.
-
-More to come soon.
